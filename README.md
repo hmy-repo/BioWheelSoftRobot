@@ -7,7 +7,7 @@
 - **Libraries & Languages**: OpenCV, PyTorch; Python, C++<br>
 
 ## Installation guide
-- **OS Installation**: Raspberry Pi OS(64 bit) and FreeRTOS should be installed on the Raspberry Pi and Arduino<br>
+- **OS Installation**: Raspberry Pi OS(64 bit) and FreeRTOS should be installed on the Raspberry Pi and Arduino correspondingly<br>
 - **Software Enviroments**: vscode and plugs-in, CMake, Vim, Python 3.0, C++<br>
 - **Libraries Installation**: libcamera, picamera2, NumPy, OpenCV(4.5.5), PyTorch<br>
 
