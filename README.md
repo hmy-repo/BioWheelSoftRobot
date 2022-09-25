@@ -7,7 +7,7 @@
 - **Library & Language**: OpenCV, PyTorch; Python, C++<br>
 
 ## Instructions for use
-> ArduinoDriveCode
+> ArduinoDriveCode 📁 
 
 ## Installation guide
 
