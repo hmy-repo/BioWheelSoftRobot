@@ -1,17 +1,17 @@
 # Biomimetic Soft Robot Exploiting Wheel-legs and Multimodal Locomotion for High Terrestrial Maneuverability
 *Program for the Biomimetic Soft Robot*<br>
 
-## System requiremets
+## System Requiremets
 - **Hardwares**: Raspberry Pi 4 Model B Rev 1.4, Arduino Mega 2560, Arducam Pi Camera(5 Mega pixels), ToF sensor(OSTSen-53L0X)<br>
 - **Systems**: Debian GNU/Linux 11 (bullseye) *[for Raspberry Pi]*, FreeRTOS *[for Arduino]*<br>
 - **Libraries & Languages**: OpenCV, PyTorch; Python, C++<br>
 
-## Installation guide
+## Installation Guide
 - **OS Installation**: Raspberry Pi OS(64 bit) and FreeRTOS should be installed on the Raspberry Pi and Arduino correspondingly<br>
 - **Software Enviroments**: vscode and plugs-in, CMake, Vim, Python 3.0, C++<br>
 - **Libraries Installation**: libcamera, picamera2, NumPy, OpenCV(4.5.5), PyTorch<br>
 
-## Instructions for use
+## Instructions for Use
 > **ArduinoDriveCode** 📁
 > - **main.cpp**: includes the embedded system *FreeRTOS*, whose job is to manage two main tasks: 1. *the dual-serial-communication between Raspberry Pi and Arduino* 2. *requiring the distance data from the ToF sensor connected to the Arduino.*
 > - **CrawlRobo.cpp**: performs the *actuation strategies* by manipulating the Electro-Pneumatic Regulators through PWM waves.
@@ -29,7 +29,7 @@
 > **main.py**
 > - This is *the main program*, when we excute this python file, the different functional programs shown above will be called automatically. *An decision-making unit* will be simulated in this file, which can be regarded as the robot brain. <br>
 
-## Demo
+## Result Demo
 <div align="center">
 <img src=/crawlrobot/img/object_recognition_result.jpg width=50%/>
 </div>
