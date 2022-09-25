@@ -7,7 +7,11 @@
 - **Library & Language**: OpenCV, PyTorch; Python, C++<br>
 
 ## Instructions for use
-> ArduinoDriveCode 📁 
+> ArduinoDriveCode 📁
+>> - main.cpp --including the embedded system *FreeRTOS*, whose job is to manage two main tasks: 1.the dual-serial-communication between Raspberry Pi and Arduino, 2.requiring the distance data from the ToF sensor connected to the Arduino.
+>> - CrawlRobo.cpp
+>> - CmdSerial.cpp
+>> - TOFSensor.cpp
 
 ## Installation guide
 
