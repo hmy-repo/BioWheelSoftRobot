@@ -8,10 +8,10 @@
 
 ## Instructions for use
 > **ArduinoDriveCode** 📁
-> - **main.cpp** --including the embedded system *FreeRTOS*, whose job is to manage two main tasks: 1.the dual-serial-communication between Raspberry Pi and Arduino, 2.requiring the distance data from the ToF sensor connected to the Arduino.
-> - **CrawlRobo.cpp**
-> - **CmdSerial.cpp**
-> - **TOFSensor.cpp**
+> - **main.cpp**: includes the embedded system *FreeRTOS*, whose job is to manage two main tasks: 1. *the dual-serial-communication between Raspberry Pi and Arduino* 2. *requiring the distance data from the ToF sensor connected to the Arduino.*
+> - **CrawlRobo.cpp**: performs the actuation strategies by manipulating the Electro-Pneumatic Regulators through PWM waves.
+> - **CmdSerial.cpp**: defines the serial protocol between Raspberry Pi and Arduino.
+> - **TOFSensor.cpp**: powered by the Arduino to detect the distance when Arduino requires.
 
 ## Installation guide
 
@@ -21,3 +21,4 @@
 ## Reference
 - <https://github.com/ultralytics/yolov5><br>
 - <https://github.com/eriklindernoren/PyTorch-YOLOv3><br>
+- <https://www.freertos.org><br>
