@@ -6,7 +6,8 @@
 - **System**: Debian GNU/Linux 11 (bullseye) *[for Raspberry Pi]*, FreeRTOS *[for Arduino]*<br>
 - **Library & Language**: OpenCV, PyTorch; Python, C++<br>
 
-## Instructions
+## Instructions for use
+> ArduinoDriveCode
 
 ## Installation guide
 
