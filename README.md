@@ -2,9 +2,14 @@
 *Program for the Biomimetic Soft Robot*<br>
 
 ## System requiremets
-- **Hardware**: Raspberry Pi 4 Model B Rev 1.4, Arduino Mega 2560, Arducam Pi Camera(5 Mega pixels), ToF sensor(OSTSen-53L0X)<br>
-- **System**: Debian GNU/Linux 11 (bullseye) *[for Raspberry Pi]*, FreeRTOS *[for Arduino]*<br>
-- **Library & Language**: OpenCV, PyTorch; Python, C++<br>
+- **Hardwares**: Raspberry Pi 4 Model B Rev 1.4, Arduino Mega 2560, Arducam Pi Camera(5 Mega pixels), ToF sensor(OSTSen-53L0X)<br>
+- **Systems**: Debian GNU/Linux 11 (bullseye) *[for Raspberry Pi]*, FreeRTOS *[for Arduino]*<br>
+- **Libraries & Languages**: OpenCV, PyTorch; Python, C++<br>
+
+## Installation guide
+- **OS Installation**: Raspberry Pi OS(64 bit) and FreeRTOS should be installed on the Raspberry Pi and Arduino<br>
+- **Software Enviroments**: vscode and plugs-in, CMake, Vim, Python 3.0, C++<br>
+- **Libraries Installation**: libcamera, picamera2, NumPy, OpenCV(4.5.5), PyTorch<br>
 
 ## Instructions for use
 > **ArduinoDriveCode** 📁
@@ -22,9 +27,7 @@
 > - Picamera2 is the libcamera-based replacement for Picamera which was *a Python interface* to the Raspberry Pi's legacy camera stack. Picamera2 also presents an easy to use Python API.
 
 > **main.py**
-> - This is *the main program*, when we excute this python file, the program shown above will be called automatically. *An decision-making unit* is contain in this file, which can be regarded as the robot brain. 
-
-## Installation guide
+> - This is *the main program*, when we excute this python file, the program shown above will be called automatically. *An decision-making unit* is contain in this file, which can be regarded as the robot brain. <br>
 
 ## Demo
 <div align="center">
@@ -36,12 +39,7 @@
 </div>
 <p align="center"><i>Fig 2. Actuated chambers controled by Arduino</i></p>
 
-
-
-
-
-
-## Reference
+## References
 - <https://github.com/ultralytics/yolov5><br>
 - <https://github.com/eriklindernoren/PyTorch-YOLOv3><br>
 - <https://github.com/raspberrypi/picamera2><br>
