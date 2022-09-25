@@ -22,7 +22,7 @@
 > - Picamera2 is the libcamera-based replacement for Picamera which was *a Python interface* to the Raspberry Pi's legacy camera stack. Picamera2 also presents an easy to use Python API.
 
 > **main.py**
-> - contains the decision unit, which can be regarded as the robot brain and
+> - This is *the main program*, when we excute this python file, the program shown above will be called automatically. *An decision-making unit* is contain in this file, which can be regarded as the robot brain. 
 
 ## Installation guide
 
