@@ -30,11 +30,11 @@
 <div align="center">
 <img src=/crawlrobot/img/object_recognition_result.jpg width=40%/>
 </div>
-<p align="center" font="bolt">Fig 1. Object recognition result</p>
+<p align="center"><i>Fig 1. Object recognition result shown on Raspberry Pi</i></p>
 <div align="center">
 <img src=/crawlrobot/img/actuated.jpg width=40%/>
 </div>
-<p align="center">Fig 2. Actuated chamber by Arduino</p>
+<p align="center"><i>Fig 2. Actuated chambers controled by Arduino</i></p>
 
 
 
