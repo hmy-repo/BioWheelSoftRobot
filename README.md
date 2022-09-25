@@ -28,11 +28,11 @@
 
 ## Demo
 <div align="center">
-<img src=/crawlrobot/img/object_recognition_result.jpg width=40%/>
+<img src=/crawlrobot/img/object_recognition_result.jpg width=50%/>
 </div>
 <p align="center"><i>Fig 1. Object recognition result shown on Raspberry Pi</i></p>
 <div align="center">
-<img src=/crawlrobot/img/actuated.jpg width=40%/>
+<img src=/crawlrobot/img/actuated.jpg width=50%/>
 </div>
 <p align="center"><i>Fig 2. Actuated chambers controled by Arduino</i></p>
 
