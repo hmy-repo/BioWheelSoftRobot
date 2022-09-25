@@ -13,6 +13,16 @@
 > - **CmdSerial.cpp**: defines the serial protocol between Raspberry Pi and Arduino.
 > - **TOFSensor.cpp**: powered by the Arduino to detect the distance when Arduino requires.
 
+> **crawlrobot** 📁
+> - **crawlrobot.py**: defines a class ***CrawlRobot*** to achieve different functionalities of our Biomimetic Soft Robot.
+> - **detector.py**: for object recognition algorithm which performed on the Raspberry Pi platform.
+> - **postprocess.py**: postprocess for the object recognition procedure.
+
+> **picamera2** 📁
+> - Picamera2 is the libcamera-based replacement for Picamera which was a Python interface to the Raspberry Pi's legacy camera stack. Picamera2 also presents an easy to use Python API.
+
+> **main.py**
+> - 
 ## Installation guide
 
 ## Demo
@@ -22,3 +32,4 @@
 - <https://github.com/ultralytics/yolov5><br>
 - <https://github.com/eriklindernoren/PyTorch-YOLOv3><br>
 - <https://www.freertos.org><br>
+- <https://github.com/raspberrypi/picamera2><br>
