@@ -27,7 +27,18 @@
 ## Installation guide
 
 ## Demo
-[![Narrow Lane](/crawlrobot/img/object recognition result.jpg "Narrow Lane Recognition")](https://markdown.com.cn)
+<div align="center">
+<img src=/crawlrobot/img/object_recognition_result.jpg width=40%/>
+</div>
+<p align="center" font="bolt">Fig 1. Object recognition result</p>
+<div align="center">
+<img src=/crawlrobot/img/actuated.jpg width=40%/>
+</div>
+<p align="center">Fig 2. Actuated chamber by Arduino</p>
+
+
+
+
 
 
 ## Reference
