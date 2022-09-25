@@ -19,15 +19,15 @@
 > - **TOFSensor.cpp**: powered by the Arduino to detect *the distance* when Arduino requires.
 
 > **crawlrobot** 📁
-> - **crawlrobot.py**: defines *a class CrawlRobot* to achieve different functionalities of our Biomimetic Soft Robot.
-> - **detector.py**: for *object recognition algorithm* which performed on the Raspberry Pi platform.
+> - **crawlrobot.py**: defines *a class CrawlRobot* to help our our Biomimetic Soft Robot to achieve multimodal locomotion for High Terrestrial Maneuverability.
+> - **detector.py**: mainly include the *object recognition algorithm* which performed on the Raspberry Pi platform.
 > - **postprocess.py**: *postprocess* for the object recognition procedure.
 
 > **picamera2** 📁
 > - Picamera2 is the libcamera-based replacement for Picamera which was *a Python interface* to the Raspberry Pi's legacy camera stack. Picamera2 also presents an easy to use Python API.
 
 > **main.py**
-> - This is *the main program*, when we excute this python file, the program shown above will be called automatically. *An decision-making unit* is contain in this file, which can be regarded as the robot brain. <br>
+> - This is *the main program*, when we excute this python file, the different functional programs shown above will be called automatically. *An decision-making unit* will be simulated in this file, which can be regarded as the robot brain. <br>
 
 ## Demo
 <div align="center">
